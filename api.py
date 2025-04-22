@@ -1,3 +1,4 @@
+import requests
 def obtener_datos(nombre):
     url = f"https://pokeapi.co/api/v2/pokemon/{nombre}"
     response = requests.get(url)
